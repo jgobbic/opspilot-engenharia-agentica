@@ -78,4 +78,4 @@ def perguntar(agente, pergunta: str, thread_id: str | None = None) -> str:
     # │  Copilot Chat: "Retorne o texto da última mensagem de resultado["messages"] usando a função texto_de"
     # └─ Troque cada ___ abaixo. Gabarito: `make gabarito-aula AULA=1`
     return texto_de(resultado["messages"][-1])
-
+x
